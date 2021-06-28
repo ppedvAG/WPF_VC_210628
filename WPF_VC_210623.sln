@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Person
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul02_Container", "Container\Modul02_Container.csproj", "{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul04_EventRouting", "EventRouting\Modul04_EventRouting.csproj", "{F3E54329-D738-40E4-B9EE-2106B4B96598}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E54329-D738-40E4-B9EE-2106B4B96598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E54329-D738-40E4-B9EE-2106B4B96598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E54329-D738-40E4-B9EE-2106B4B96598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E54329-D738-40E4-B9EE-2106B4B96598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
