@@ -1,0 +1,33 @@
+﻿<Window x:Class="DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="341" Width="451">
+    
+    <StackPanel>
+
+        <StackPanel x:Name="Spl_DataContextBeispiel">
+            <StackPanel.DataContext>
+                <local:Person Vorname="Rainer" Nachname="Zufall" Alter="35"/>
+            </StackPanel.DataContext>
+
+            <TextBox Text="{Binding Vorname}"/>
+            <TextBlock Text="{Binding Nachname}"/>
+            <TextBlock Text="{Binding Alter}"/>
+            <TextBlock Text="{Binding WichtigeTage[0].Year}"/>
+
+            <Button x:Name="Btn_Show" Content="Show" Click="Btn_Show_Click"/>
+            <Button x:Name="Btn_Age" Content="Age person" Click="Btn_Age_Click"/>
+        </StackPanel>
+
+        <ListBox x:Name="Lbx_Personen" Height="100"
+                 ItemsSource="{Binding Personenliste}"/>
+        <Button x:Name="Btn_Add" Content="Add Person" Click="Btn_Add_Click"/>
+        <Button x:Name="Btn_Delete" Content="Delete Person" Click="Btn_Delete_Click"/>
+
+    </StackPanel>
+    
+</Window>
