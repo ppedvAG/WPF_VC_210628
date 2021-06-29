@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul02_Controls", "Control
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{FE61D791-22B6-48DD-A490-21C20F6A83A7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul02_Container", "Container\Modul02_Container.csproj", "{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul03_Container", "Container\Modul03_Container.csproj", "{1DFE5B8E-9D53-4296-A3F9-4802F3F1C716}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul04_EventRouting", "EventRouting\Modul04_EventRouting.csproj", "{F3E54329-D738-40E4-B9EE-2106B4B96598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyBinding", "PropertyBinding\PropertyBinding.csproj", "{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul05_PropertyBinding", "PropertyBinding\Modul05_PropertyBinding.csproj", "{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{B32EDAEE-048D-427E-B4BD-991315347829}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32EDAEE-048D-427E-B4BD-991315347829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32EDAEE-048D-427E-B4BD-991315347829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32EDAEE-048D-427E-B4BD-991315347829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32EDAEE-048D-427E-B4BD-991315347829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
