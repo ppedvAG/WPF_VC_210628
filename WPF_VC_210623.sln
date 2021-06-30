@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09_Validation", "Valid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10_Trigger", "Trigger\Modul10_Trigger.csproj", "{B1E2E588-2F6F-469D-A33E-CF6D9F367981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControls", "UserControls\UserControls.csproj", "{A5E8E6B6-3BCB-4F2C-B4AC-DDEBDD585DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11_UserControls", "UserControls\Modul11_UserControls.csproj", "{A5E8E6B6-3BCB-4F2C-B4AC-DDEBDD585DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -59,6 +59,7 @@
 
         <Button x:Name="Btn_Ändern" Click="Btn_Ändern_Click" Content="Ändern"/>
 
+        <!--Beispiel-Einbindung des UserControls aus M11_UserControls-->
         <usercontrols:ColorPicker x:Name="ColorPicker">
             <!--<Button Content="Hallo" usercontrols:ColorPicker.Value="5"/>-->
         </usercontrols:ColorPicker>
