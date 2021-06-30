@@ -13,15 +13,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul03_Container", "Contai
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul04_EventRouting", "EventRouting\Modul04_EventRouting.csproj", "{F3E54329-D738-40E4-B9EE-2106B4B96598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul05_PropertyBinding", "PropertyBinding\Modul05_PropertyBinding.csproj", "{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul05_PropertyBinding", "PropertyBinding\Modul05_PropertyBinding.csproj", "{E6D3A69A-A7CD-4332-9FDD-5E5D6995175D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{B32EDAEE-048D-427E-B4BD-991315347829}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{B32EDAEE-048D-427E-B4BD-991315347829}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul06_DataBinding", "DataBinding\Modul06_DataBinding.csproj", "{B7D2915E-253F-4B8E-8CBE-E3197C7B58D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul06_DataBinding", "DataBinding\Modul06_DataBinding.csproj", "{B7D2915E-253F-4B8E-8CBE-E3197C7B58D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul07_ResourcesStyles", "Resources\Modul07_ResourcesStyles.csproj", "{316556D4-C220-475B-BE39-22E89A7A2601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul07_ResourcesStyles", "Resources\Modul07_ResourcesStyles.csproj", "{316556D4-C220-475B-BE39-22E89A7A2601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul15_Localisation", "Localisation\Modul15_Localisation.csproj", "{32958392-84E0-43D8-94DD-2162ADB656DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul15_Localisation", "Localisation\Modul15_Localisation.csproj", "{32958392-84E0-43D8-94DD-2162ADB656DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul08_Templates", "Templates\Modul08_Templates.csproj", "{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{32958392-84E0-43D8-94DD-2162ADB656DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32958392-84E0-43D8-94DD-2162ADB656DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32958392-84E0-43D8-94DD-2162ADB656DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
