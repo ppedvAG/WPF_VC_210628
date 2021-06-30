@@ -135,7 +135,6 @@
 
         </StackPanel>
 
-
         <local:IntegerUpDown x:Name="Iud_Kinder" 
                             Grid.Row="6" Grid.Column="1" Margin="2"
                             Value="{Binding Kinder, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, ValidatesOnDataErrors=True}"
