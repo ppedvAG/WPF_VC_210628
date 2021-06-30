@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul15_Localisation", "Loc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul08_Templates", "Templates\Modul08_Templates.csproj", "{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation", "Validation\Validation.csproj", "{1659E522-0380-4AA7-B2B8-BC8C13813985}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09_Validation", "Validation\Modul09_Validation.csproj", "{1659E522-0380-4AA7-B2B8-BC8C13813985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
