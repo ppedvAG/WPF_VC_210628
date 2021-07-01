@@ -7,10 +7,19 @@ using System.Windows.Input;
 
 namespace MVVM
 {
+    //vgl. M13_Commands
     public class CustomCommand : ICommand
     {
-        public Action<object> ExecuteMethod { get; set; }
-        public Func<object, bool> CanExecuteMethod { get; set; }
+        public Action<object> ExecuteMethode { get; set; }
+        public Func<object, bool> CanExecuteMethode { get; set; }
+
+        public CustomCommand(Action<object> exe, Func<object, bool> can = null)
+        {
+            ExecuteMethode = exe;
+
+            if (can == null) CanExecuteMethode = p => true;
+            else CanExecuteMethode = can;
+        }
 
         public event EventHandler CanExecuteChanged
         {
@@ -18,20 +27,14 @@ namespace MVVM
             remove { CommandManager.RequerySuggested -= value; }
         }
 
-        public CustomCommand(Action<object> exe, Func<object, bool> can)
-        {
-            ExecuteMethod = exe;
-            CanExecuteMethod = can;
-        }
-
         public bool CanExecute(object parameter)
         {
-            return CanExecuteMethod(parameter);
+            return CanExecuteMethode(parameter);
         }
 
         public void Execute(object parameter)
         {
-            ExecuteMethod(parameter);
+            ExecuteMethode(parameter);
         }
     }
 }

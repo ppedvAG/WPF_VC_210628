@@ -8,6 +8,8 @@ using System.Windows.Media;
 
 namespace Personendatenbank
 {
+    //vgl.Modul14_MVVM für Erläuterungen
+
     public enum Gender { Männlich, Weiblich, Divers }
 
     public class Person : INotifyPropertyChanged, IDataErrorInfo

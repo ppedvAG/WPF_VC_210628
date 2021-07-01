@@ -5,24 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVM.View"
         xmlns:vm="clr-namespace:MVVM.ViewModel"
+        xmlns:main="clr-namespace:MVVM"
         mc:Ignorable="d"
-        Title="StartView" Height="158" Width="374"
-        x:Name="Wnd_StartView">
-    
+        Title="Personendatenbank" Height="221" Width="362"
+        Style="{StaticResource Sty_Wnd}"
+        x:Name="Wnd_Start">
+
+    <!--Im View-Teil von MVVM-Projekten werden die Fenster per XAML definiert. Diese Klassen dürfen keinen Code-Behind
+    besitzen. Diese Aufgabe wird von dem entsprechenden ViewModel übernommen, welches als DataContext des Views gesetzt
+    wird. Dies geschieht hier, im ersten Fenster des Programms, inner halb des XAML-Codes.-->
     <Window.DataContext>
         <vm:StartViewModel/>
     </Window.DataContext>
-    
-    <StackPanel Margin="10">
 
+    <!--Die Eigenschaften werden über Kurzbindungen an den DataContext (das ViewModel) gebunden.-->
+    <StackPanel Margin="10">
         <TextBlock Text="Personendatenbank" FontSize="30" HorizontalAlignment="Center"/>
 
         <WrapPanel Margin="10" HorizontalAlignment="Center">
             <Button Content="Lade DB" Command="{Binding LadeDbCmd}"/>
-            <Button Content="Öffne DB" Command="{Binding OeffeneDbCmd}" CommandParameter="{Binding ElementName=Wnd_StartView}"/>
+            <!--Das OeffneDbCmd bekommt über den Parameter das aktuelle View mit übergeben, damit dessen
+            Close-Methode ausgeführt werden kann.-->
+            <Button Content="Öffne DB" Command="{Binding OeffneDbCmd}" CommandParameter="{Binding ElementName=Wnd_Start}"/>
         </WrapPanel>
 
-        <TextBlock Text="{Binding AnzahlPerson, StringFormat=Es wurden {0} Personen geladen.}" HorizontalAlignment="Center"/>
+        <TextBlock Text="{Binding AnzahlPersonen, StringFormat=Es wurden {0} Personen geladen.}" HorizontalAlignment="Center"/>
 
+        <main:JugglerAnimation HorizontalAlignment="Center">
+            <main:JugglerAnimation.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="0.5" ScaleY="0.5"/>
+                    <TranslateTransform X="-20"/>
+                </TransformGroup>
+            </main:JugglerAnimation.RenderTransform>
+        </main:JugglerAnimation>
     </StackPanel>
 </Window>
