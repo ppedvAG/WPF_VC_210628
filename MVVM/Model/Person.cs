@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media;
 
-namespace Personendatenbank
+namespace MVVM.Model
 {
-    public enum Gender { Männlich, Weiblich, Divers }
-
     public class Person : INotifyPropertyChanged, IDataErrorInfo
     {
+        public static ObservableCollection<Person> Personenliste { get; set; } = new ObservableCollection<Person>();
+
+        public static void LadePersonenAusDb()
+        {
+            Personenliste.Add(new Person() { Vorname = "Anna", Nachname = "Nass", Geburtsdatum = new DateTime(1999, 5, 23), Geschlecht = Gender.Weiblich, Verheiratet = true, Lieblingsfarbe = Colors.CornflowerBlue });
+            Personenliste.Add(new Person() { Vorname = "Rainer", Nachname = "Zufall", Geburtsdatum = new DateTime(1977, 4, 2), Geschlecht = Gender.Männlich, Verheiratet = false, Lieblingsfarbe = Colors.IndianRed });
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         private string vorname;

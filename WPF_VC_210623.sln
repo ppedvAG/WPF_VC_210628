@@ -23,15 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul07_ResourcesStyles", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul15_Localisation", "Localisation\Modul15_Localisation.csproj", "{32958392-84E0-43D8-94DD-2162ADB656DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul08_Templates", "Templates\Modul08_Templates.csproj", "{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul08_Templates", "Templates\Modul08_Templates.csproj", "{5FA81C09-3BEA-413F-AA46-1747BE7F60B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul09_Validation", "Validation\Modul09_Validation.csproj", "{1659E522-0380-4AA7-B2B8-BC8C13813985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul09_Validation", "Validation\Modul09_Validation.csproj", "{1659E522-0380-4AA7-B2B8-BC8C13813985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul10_Trigger", "Trigger\Modul10_Trigger.csproj", "{B1E2E588-2F6F-469D-A33E-CF6D9F367981}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul10_Trigger", "Trigger\Modul10_Trigger.csproj", "{B1E2E588-2F6F-469D-A33E-CF6D9F367981}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul11_UserControls", "UserControls\Modul11_UserControls.csproj", "{A5E8E6B6-3BCB-4F2C-B4AC-DDEBDD585DBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul11_UserControls", "UserControls\Modul11_UserControls.csproj", "{A5E8E6B6-3BCB-4F2C-B4AC-DDEBDD585DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul12_RelativeSources", "RelativeSources\Modul12_RelativeSources.csproj", "{7BA40D95-AA55-4C01-99C6-CB0DB7FA2C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul12_RelativeSources", "RelativeSources\Modul12_RelativeSources.csproj", "{7BA40D95-AA55-4C01-99C6-CB0DB7FA2C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{CBF23DFB-8AD6-49D4-A499-B2A865DE1D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.csproj", "{4B008145-34AE-4997-98AD-FD81B5A6B81A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{7BA40D95-AA55-4C01-99C6-CB0DB7FA2C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA40D95-AA55-4C01-99C6-CB0DB7FA2C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA40D95-AA55-4C01-99C6-CB0DB7FA2C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF23DFB-8AD6-49D4-A499-B2A865DE1D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF23DFB-8AD6-49D4-A499-B2A865DE1D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF23DFB-8AD6-49D4-A499-B2A865DE1D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF23DFB-8AD6-49D4-A499-B2A865DE1D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B008145-34AE-4997-98AD-FD81B5A6B81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B008145-34AE-4997-98AD-FD81B5A6B81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B008145-34AE-4997-98AD-FD81B5A6B81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B008145-34AE-4997-98AD-FD81B5A6B81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

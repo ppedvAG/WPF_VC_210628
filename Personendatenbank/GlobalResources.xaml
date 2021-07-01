@@ -46,4 +46,9 @@
 
     <Style TargetType="Button" BasedOn="{StaticResource Sty_Btn_Base}"/>
 
+    <Style TargetType="Menu">
+        <Setter Property="FontSize" Value="{StaticResource Dbl_Fontsize}"/>
+        <Setter Property="Background" Value="{x:Null}"/>
+    </Style>
+    
 </ResourceDictionary>
